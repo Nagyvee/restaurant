@@ -1,0 +1,143 @@
+.btn-group button {
+  border: 1px solid rgb(0, 0, 0); 
+  color: rgb(255, 255, 255); /* White text */
+  size: 30px;
+  padding: 10px 25px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; 
+  border-radius: 30px;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; 
+}
+
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:hover {
+  background-color: #2b44e9;
+}
+.button1 {background-color: green;}
+.button2 {background-color: green;}
+.button3 {background-color: green;}
+.button4 {background-color: green;}
+.button5 {background-color: green;}
+
+.div1, .div2, .div3{
+
+  float: left;
+  
+  width: 380px;
+  
+  height: 230px;
+  
+  box-sizing: border-box;
+  
+  background: rgb(254, 254, 254);
+  
+  border: 1px solid rgb(76, 35, 76);
+  
+  }
+
+  .time {
+      text-align: end;
+  }
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  .container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .container img {vertical-align: middle;}
+  
+  .container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); /* Black background opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+
+
+
+
+
+
+
+
+  html {
+    box-sizing: border-box;
+  }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color:white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+

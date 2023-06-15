@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgb(207, 196, 196);
+  padding: 20px;
+}
+
+.content {padding:20px;}
+
+.button1 {border-radius: 40px;}
+
+
+.div1, .div2, .div3{
+
+    float: left;
+    
+    width: 380px;
+    
+    height: 230px;
+    
+    box-sizing: border-box;
+    
+    background: rgb(254, 254, 254);
+    
+    border: 1px solid rgb(76, 35, 76);
+    
+    }
+
+    .time {
+        text-align: end;
+    }
+
+
+</style>
+</head>
+<body>
+
+    <a href="restaurant.html"><button style="background-color: #e891cf;   color: rgb(5, 5, 6);font-size: 30px;"
+        font-size: 30px;>Home</button></a>
+
+<h2><mark>Send us a message</mark> </h2>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="lname">Email</label>
+    <input type="text" id="email" name="email" placeholder="Email address..">
+
+    <label for="enquiry">Enquiry type</label>
+    <select id="enquiry" name="country">
+      <option value="enquiry type">Enquiry type</option>
+      <option value="Function enquiry">Function enquiry</option>
+      <option value="enquiry">enquiry</option>
+
+    </select>
+
+    <label for="lname">Number of People</label>
+    <input type="number" id="quantity" name="Quantity" placeholder="No of People.." min="1" max="20"> <br><br>
+
+    <label for="subject">Message</label>
+    <textarea id="message" name="message" placeholder="Write message.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+
+
+<div class="div1">
+    <h3><u> Tasha's Restaurant </u></h3>
+    <p> <i>
+        Upscale and creative European-style cuisine, with local influences, in a modern space with terrace. South African Restaurant of the Year 2013. </i>
+    </p>
+    </div>
+    
+    <div class="div2">
+        <h3><u>Find us </u> </h3>
+        <address>
+     <p> 
+    <i> LEMNOS HOUSE, 82 President str, Germiston, Johannesburg, 1401 <br>
+    Mobile: 060 582 7070 <br>
+    E-mail: tasharestaurant.co.za </i>
+    </p>
+    <a href="https://www.instagram.com/"> <img src="images/insta.jpg" alt="" style="height: 50px;width: 30px; border-radius: 50px; cursor: pointer;" ></a> 
+    <a href="https://www.facebook.com"><img src="images/fb.png" alt="" style="height: 50px;width: 30px; border-radius: 50px; cursor: pointer;"></a>
+    <a href="https://api.whatsapp.com/send?phone=27605827070&text=Can%20I%20know%20more%20about%20your%20service.."><img src="images/whatsapp.jpg" alt="" style="height: 50px;width: 30px; border-radius: 50px; cursor: pointer;"></a>
+    <a href="https://goo.gl/maps/KbuDyWpFEcUEXN1QA"><img src="images/location.jpg" alt="" style="height: 50px; width: 50px; border-radius:50px ; cursor: pointer;" ></map></a>
+    </address>
+    </div>
+    
+    <div class="div3">
+    <h3><u> Our Opening Hours </u></h3>
+     <p style="word-spacing: 80px;" class="time" id="CT">
+         Monday
+    18:00-21:00 <br>
+    Tuesday
+    12:00-21:00 <br>
+    Wednesday
+    12:00-21:00 <br>
+    Thursday
+    12:00-21:00 <br>
+    Friday
+    12:00-21:00 <br>
+    Saturday
+    12:00-21:00 <br>
+    Sunday
+    11:00-16:00 <br>
+    </p>
+    
+         
+    </div>
+    
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+
+body { background-color: rgb(240, 166, 166);}
+
+h2 {color: blue;}
+
+img { 
+    height: 300px;
+    width: 220px;
+    border-radius: 70px;
+    padding: 5px;
+    }
+
+    button {
+        background-color: rgb(219, 170, 170);
+        color: rgb(0, 16, 241);
+        font-size: 30px;
+        
+     }
+
+
+/* Style the body */
+body {
+font-family: Arial;
+margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+padding: 30px;
+text-align: justify;
+background-image: url(images/ATXCocina_CaseyDunn-\(5\).jpg);
+background-size: 1300px 200px;
+background-repeat: no-repeat;
+color: rgb(249, 3, 208);
+font-size: 20px;}
+
+.header2 {
+padding: 30px;
+text-align: center;
+background-color: white;
+background-size: 1300px 200px;
+background-repeat: no-repeat;
+color: black; 
+font-size: 20px; }
+
+
+/* Page Content */
+.content {padding:20px;}
+
+.button1 {border-radius: 40px;}
+
+
+.div1, .div2, .div3{
+
+    float: left;
+    
+    width: 380px;
+    
+    height: 230px;
+    
+    box-sizing: border-box;
+    
+    background: rgb(254, 254, 254);
+    
+    border: 1px solid rgb(76, 35, 76);
+    
+    }
+
+    .time {
+        text-align: end;
+    }
